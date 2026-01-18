@@ -173,6 +173,10 @@ git commit -m "Enable Git LFS and track binary asset types"
 git push origin main             # Pushes commits to the main branch
 ```
 
+![alt text](image.png)
+
+![alt text](image-1.png)
+
 ## AI Car Implementation
 
 ### Creating AI Car Blueprint
