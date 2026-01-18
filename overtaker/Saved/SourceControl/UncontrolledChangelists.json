@@ -1,0 +1,13 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/balie/BaliGit/overtaker-car-racing-ue5-game-dev/overtaker/Content/__ExternalActors__/VehicleTemplate/Maps/Lvl_VehicleBasic/C/71/AINYWBIUY35BZDCFQ8NCBE.uasset",
+				"C:/Users/balie/BaliGit/overtaker-car-racing-ue5-game-dev/overtaker/Content/__ExternalActors__/Variant_Timetrial/Maps/Lvl_Timetrial/D/7B/88Q0YRGKUNRF2BBTR2CZWK.uasset"
+			]
+		}
+	]
+}
