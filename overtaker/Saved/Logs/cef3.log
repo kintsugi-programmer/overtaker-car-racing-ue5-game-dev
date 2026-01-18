@@ -1,6 +1,6 @@
-[23472:21580:0119/030509.674:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
-[23472:24612:0119/030509.748:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
-[23472:21580:0119/030509.801:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
-[23472:21580:0119/030513.056:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
-[22600:30300:0119/030515.564:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-8E72A81EC898B0C2C9DAA8174C377C1E will be ignored
-[23472:21580:0119/031556.286:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
+[23584:30384:0119/032214.659:WARNING:chrome_main_delegate.cc(745)] This is Chrome version 128.0.6613.138 (not a warning)
+[23584:26436:0119/032214.721:ERROR:google_update_settings.cc(265)] Failed opening key Software\Chromium to set usagestats; result: 5
+[23584:30384:0119/032214.730:WARNING:account_consistency_mode_manager.cc(77)] Desktop Identity Consistency cannot be enabled as no OAuth client ID and client secret have been configured.
+[23584:30384:0119/032216.920:WARNING:external_registry_loader_win.cc(232)] Error observing HKLM: 5
+[17148:18052:0119/032219.017:WARNING:frame_impl.cc(430)] virtual CefFrameImpl::SendProcessMessage sent to detached frame 5-8CADB9207926BE554034B5546613E184 will be ignored
+[23584:30384:0119/032545.091:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
