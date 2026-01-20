@@ -191,6 +191,8 @@ Location: Content/VehicleTemplate/Blueprints/
 
 **Note**: BP_SportsCar inherits from VehicleBase_Pawn (parent class containing main logic for brakes, throttle, etc.)
 
+![alt text](image-2.png)
+
 ### AI Movement Setup
 
 **In BP_Car_AI Event Graph:**
