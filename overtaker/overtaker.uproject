@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.7",
+	"EngineAssociation": "5.6",
 	"Category": "",
 	"Description": "",
 	"Plugins": [
@@ -19,5 +19,8 @@
 			"Name": "ChaosVehiclesPlugin",
 			"Enabled": true
 		}
+	],
+	"TargetPlatforms": [
+		"Windows"
 	]
 }

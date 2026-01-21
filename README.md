@@ -189,11 +189,15 @@ Location: Content/VehicleTemplate/Blueprints/
 - Rename: BP_Car_AI
 ```
 
-**Note**: BP_SportsCar inherits from VehicleBase_Pawn (parent class containing main logic for brakes, throttle, etc.)
-
 ![alt text](image-2.png)
 
+**Note**: BP_SportsCar inherits from VehicleBase_Pawn (parent class containing main logic for brakes, throttle, etc.)
+
+![alt text](image-3.png)
+
 ### AI Movement Setup
+
+![alt text](image-4.png)
 
 **In BP_Car_AI Event Graph:**
 
@@ -216,8 +220,15 @@ Location: Content/VehicleTemplate/Blueprints/
    Test Value: 1 (full right)
    Note: This is just for testing initial movement
    ```
+![alt text](image-7.png)
+
+![alt text](image-5.png)
+
+![alt text](image-6.png)
 
 ### Path Following System
+
+![alt text](image-8.png)
 
 **Creating Track Spline Blueprint:**
 
@@ -230,6 +241,11 @@ Components:
 - Add: Spline Component
 - No additional logic needed in Event Graph
 ```
+> Spline: Set of Positions that forms a shape !!!
+
+![alt text](image-9.png)
+
+![alt text](image-10.png)
 
 **Spline Placement in Level:**
 - Drag BP_TrackSpline into level
@@ -239,9 +255,15 @@ Components:
 - Continue until track path is complete
 - Deselected view may show spline through road (visual only, actual position is correct)
 
+![alt text](image-11.png)
+
+![alt text](image-12.png)
+
 ### AI Steering Logic Function
 
 **Create Function: "Follow Track Spline"**
+
+![alt text](image-13.png)
 
 **Input Parameter:**
 ```
@@ -249,7 +271,11 @@ Name: Spline Track
 Type: BP_TrackSpline (Object Reference)
 ```
 
+![alt text](image-14.png)
+
 **Function Logic:**
+
+![alt text](image-15.png)
 
 1. **Get Spline Tangent Direction**
    ```
@@ -265,6 +291,8 @@ Type: BP_TrackSpline (Object Reference)
    → Multiply by 500 (convert to Float)
    → Add with Get Actor Location
    ```
+
+![alt text](image-16.png)
 
 3. **Find Target Location**
    ```
@@ -299,12 +327,16 @@ Type: BP_TrackSpline (Object Reference)
    Out Range B: 1
    Purpose: Convert -90/90 degrees to -1/1 steering input
    ```
+![alt text](image-17.png)
 
 7. **Output**
    ```
    Type: Float
    Name: Steering Value
    ```
+![alt text](image-18.png)
+
+![alt text](image-19.png)
 
 ### Event Graph Integration
 
@@ -326,9 +358,28 @@ Begin Play
 → Use in Event Tick
 ```
 
+![alt text](image-20.png)
+
+![alt text](image-21.png)
+
 **Throttle Note**: 
 - Throttle remains at 0.5 from Begin Play (Set once, stays constant)
 - Steering updates every frame via Event Tick (needs continuous updates)
+
+![alt text](image-22.png)
+
+![alt text](image-23.png)
+
+- fix: for uneven rotation
+
+![alt text](image-24.png)
+
+- now it's working
+
+![alt text](image-25.png)
+
+- car is following Spline, it's working.
+- it's incomplete btw
 
 ## Vehicle Speed Adjustments
 
@@ -342,6 +393,10 @@ Settings:
 Purpose: Slower speed for better track following
 ```
 
+![alt text](image-26.png)
+
+> Compile + Save [BOTH] Everytime !!!
+
 ### Player Car Settings
 ```
 Location: VehicleTemplate/Blueprints/VehicleAdvancedSportsCar
@@ -352,9 +407,14 @@ Settings:
 Purpose: Fair competition
 ```
 
+![alt text](image-27.png)
+
 ## UI Timer Adjustment
 
 ### Extending Countdown Timer
+
+- Reasoning: As AI don't have impulse to start on time + makes it more fun
+- AI would have advantage, as it's bit faster as we can pick up faster than them
 
 **Location**: Variant Template/UI/StartWidget
 
@@ -362,6 +422,12 @@ Purpose: Fair competition
 
 Original countdown: 3 seconds (3, 2, 1, GO)
 New countdown: 5 seconds (5, 4, 3, 2, 1, GO)
+
+![alt text](image-28.png)
+
+![alt text](image-29.png)
+
+![alt text](image-30.png)
 
 **Changes:**
 1. Initial timer value: Change from 3 to 5
@@ -375,6 +441,10 @@ New countdown: 5 seconds (5, 4, 3, 2, 1, GO)
    - Pin 5: "GO" (unchanged)
 4. Connect each pin to Play Animation node
 5. Purpose: Give AI more time to accelerate fairly
+
+![alt text](image-31.png)
+
+![alt text](image-32.png)
 
 ## Car Color Customization
 
@@ -394,6 +464,10 @@ New countdown: 5 seconds (5, 4, 3, 2, 1, GO)
    - Open material
    - Modify Base Color to desired color
    - Save
+
+![alt text](image-33.png)
+
+![alt text](image-34.png)
 
 ### Random Color System (AI Cars)
 

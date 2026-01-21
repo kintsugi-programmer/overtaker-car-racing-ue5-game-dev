@@ -5,9 +5,27 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Users/balie/BaliGit/overtaker-car-racing-ue5-game-dev/overtaker/Content/Vehicles/SportsCar/BP_Car_AI.uasset",
-				"C:/Users/balie/BaliGit/overtaker-car-racing-ue5-game-dev/overtaker/Content/__ExternalActors__/VehicleTemplate/Maps/Lvl_VehicleBasic/C/71/AINYWBIUY35BZDCFQ8NCBE.uasset",
-				"C:/Users/balie/BaliGit/overtaker-car-racing-ue5-game-dev/overtaker/Content/__ExternalActors__/Variant_Timetrial/Maps/Lvl_Timetrial/D/7B/88Q0YRGKUNRF2BBTR2CZWK.uasset"
+				"C:/Users/student/Documents/Unreal Projects/overtaker/Content/__ExternalActors__/Variant_Timetrial/Maps/Lvl_Timetrial/E/V1/IX3AAMJUBS9LPNCOD7OG0B.uasset",
+				"C:/Users/student/Documents/Unreal Projects/overtaker/Content/Variant_Timetrial/Maps/Lvl_Timetrial.umap",
+				"C:/Users/student/Documents/Unreal Projects/overtaker/Content/Vehicles/SportsCar/BP_Car_AI.uasset",
+				"C:/Users/student/Documents/Unreal Projects/overtaker/Content/VehicleTemplate/Blueprints/SportsCar/BP_Car_AI.uasset",
+				"C:/Users/student/Documents/Unreal Projects/overtaker/Content/__ExternalActors__/VehicleTemplate/Maps/Lvl_VehicleBasic/B/08/64SOV3TODSM0J2SYA8KQR7.uasset",
+				"C:/Users/student/Documents/Unreal Projects/overtaker/Content/__ExternalActors__/Variant_Timetrial/Maps/Lvl_Timetrial/3/GJ/VPTFWMYYKVBM4TX54EJDF1.uasset",
+				"C:/Users/student/Documents/Unreal Projects/overtaker/Content/Blueprints/BP_TrackSpline.uasset",
+				"C:/Users/student/Documents/Unreal Projects/overtaker/Content/__ExternalActors__/Variant_Timetrial/Maps/Lvl_Timetrial/5/KS/PD37O59I3OXWSOULVWWQJ4.uasset",
+				"C:/Users/student/Documents/Unreal Projects/overtaker/Content/__ExternalActors__/Variant_Timetrial/Maps/Lvl_Timetrial/4/FO/GRD88THJZFFEO3XQZ45DN6.uasset",
+				"C:/Users/student/Documents/Unreal Projects/overtaker/Content/VehicleTemplate/Blueprints/SportsCar/BP_VehicleAdvSportsCar.uasset",
+				"C:/Users/student/Documents/Unreal Projects/overtaker/Content/Variant_Timetrial/UI/UI_Start.uasset",
+				"C:/Users/student/Documents/Unreal Projects/overtaker/Content/Vehicles/SportsCar/Materials/MI_SportsCarBody_Blue.uasset",
+				"C:/Users/student/Documents/Unreal Projects/overtaker/Content/Vehicles/SportsCar/Materials/MI_SportsCarBody_Cyan.uasset",
+				"C:/Users/student/Documents/Unreal Projects/overtaker/Content/Vehicles/SportsCar/Materials/MI_SportsCarBody_Teal.uasset",
+				"C:/Users/student/Documents/Unreal Projects/overtaker/Content/Vehicles/SportsCar/Materials/MI_SportsCarBody_Red.uasset",
+				"C:/Users/student/Documents/Unreal Projects/overtaker/Content/Vehicles/SportsCar/Materials/MI_SportsCarBody_Gray.uasset",
+				"C:/Users/student/Documents/Unreal Projects/overtaker/Content/Vehicles/SportsCar/Materials/MI_SportsCarBody_Yellow.uasset",
+				"C:/Users/student/Documents/Unreal Projects/overtaker/Content/Vehicles/SportsCar/Materials/MI_SportsCarBody_Black.uasset",
+				"C:/Users/student/Documents/Unreal Projects/overtaker/Content/Vehicles/SportsCar/Materials/MI_SportsCarBody_Purple.uasset",
+				"C:/Users/student/Documents/Unreal Projects/overtaker/Content/Vehicles/SportsCar/Materials/MI_SportsCarBody_Crimson.uasset",
+				"C:/Users/student/Documents/Unreal Projects/overtaker/Content/Vehicles/SportsCar/Materials/MI_SportsCarBody.uasset"
 			]
 		}
 	]
